@@ -1,0 +1,195 @@
+html { 
+  background:  url(tbd.gif) no-repeat center center fixed; 
+  background-size: cover;
+}
+.alty{
+    background:  url(https://media.giphy.com/media/Yqn9tE2E00k4U/giphy.gif) no-repeat center center fixed; 
+  background-size: cover;
+}
+body {background color: black}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+/*Broad Image editing*/
+img{
+    padding: 25px;
+    max-height: 300;
+    max-width: 450;
+}
+
+#scar {text-align: center;
+    font-size: 100;
+    font-family: "courier", Helv, sans-serif;
+    display: flex;
+    color:  white;
+}
+
+.fade {
+    display: none;
+    font-family: "Courier", Helv, sans-serif;
+    
+    max-height: 3%;
+    max-width: 10%;
+}
+
+
+/*Join Us*/
+.flex-container3{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    font-family: "Courier", Helv, sans-serif;
+    color: white;
+    font-size: 40;
+}
+/*Heading reveal*/
+.join:hover + .fade {
+    display: block;
+}
+
+#bar {text-align: center;
+    font-size: 42;
+    font-family: "Helvetica", Helv, sans-serif;
+}
+
+/*Flex for topnav*/
+.flex-container2 {
+      display: flex;
+  justify-content: center;
+
+}
+
+
+/*BG for nav*/
+
+.topnav {
+   
+    overflow: hidden;
+}
+
+/*baa nav*/
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 89.4px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Helvetica", Helv, sans-serif;
+
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/*Nav hover design*/
+.topnav a:hover {
+    background-color:  #f2f2f2;
+    color: black;
+}
+
+
+/*AR text display*/
+.cost {
+    transform: rotate(90deg);
+	transform-origin: right top 10;
+    float: right;
+    padding: 20px;
+    font-size: 16.5;
+    font-family: "Helvetica", Helv, sans-serif;
+    display: none;
+ background-color: #f2f2f2;
+}
+
+/*Reveal AR Text*/
+.AR:hover + .cost {
+    display: flex;
+}
+
+/*ER Text Display*/
+.most {
+    transform: rotate(90deg);
+	transform-origin: right top 10;
+    float: right;
+    padding: 20px;
+    font-size: 16.5;
+    font-family: "Helvetica", Helv, sans-serif;
+    display: none;
+ background-color: #f2f2f2;
+}
+
+/*Reveal ER Text*/
+.ER:hover + .most{
+    display: flex;
+}
+
+/*MR Text Display*/
+.lost {transform: rotate(90deg);
+	transform-origin: right top 10;
+    float: right;
+    padding: 20px;
+    font-size: 16.5;
+    font-family: "Helvetica", Helv, sans-serif;
+    display: none;
+ background-color: #f2f2f2;
+}
+
+/*Reveal MR Text*/
+.MR:hover + .lost{
+    display: flex;
+}
+
+/*2nd Page flex box*/
+
+.flex-container1 {
+  display: flex;
+  justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  align-items: center;
+    
+}
+
+/*ABOUT PAGE*/
+
+
+
+div.gallery:hover {
+    background-color: white;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: "Courier", Helv, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+

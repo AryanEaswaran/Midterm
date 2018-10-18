@@ -1,0 +1,21 @@
+html{background-color: black}
+
+h1{ font-family: "courier", Helv, sans-serif;
+    color: white;
+    font-size: 38;
+}
+
+/*Parent Container*/
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+/*Text Container*/
+.flex-container1{
+ font-family: "courier", Helv, sans-serif;    
+    width: 100%;
+    font-size: 23;
+    color: white;
+  
+}
